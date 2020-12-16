@@ -1,7 +1,7 @@
     app:
         name: MySQL
         code: mysql
-        notify: appzdev@cloudbourne.co
+        notify: gajanan.khare@hikeqa.com
 
     build:
         version: 5.7
@@ -9,10 +9,10 @@
         build_file: none
         output_files: output/*.zip
         image_template: mysql-5.7
-        image_name: alpha/mysql
+        image_name: gajanankharehikeqa/mysql
 
     deploy:
-        context: alpha/DEV
+        context: gajanankharehikeqa/DEV
         type: statefulset
         replicas: 1
         port:
@@ -33,7 +33,7 @@
         mode: ReadWriteOnce
         
     monitor:
-        notify: appzops@cloudbourne.co
+        notify: gajanan.khare@hikeqa.com
 
     properties:
         MYSQL_ROOT_PASSWORD:
