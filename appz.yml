@@ -1,7 +1,7 @@
     app:
         name: MySQL
         code: mysql
-        notify: gajanan.khare@hikeqa.com 
+        notify: gajanan.khare@hikeqa.com
 
     build:
         version: 5.7
