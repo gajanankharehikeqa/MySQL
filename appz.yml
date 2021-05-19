@@ -41,4 +41,4 @@
         MYSQL_SPRINGBOOTWEB_PASSWORD:
           vault: MYSQL_SPRINGBOOTWEB_PASSWORD
         revision : 30
-        nano: 67
+        nano: 68
